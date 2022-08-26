@@ -1,12 +1,7 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Categories from "./components/categories/categories.component";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
-  );
-}
+const App = () => {
+  return <Categories />;
+};
 
 export default App;

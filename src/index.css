@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  color: #4a4a4a;
+}
+
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -8,4 +13,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  text-decoration: none;
 }
